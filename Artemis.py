@@ -1,15 +1,4 @@
-# -*- coding: utf-8 -*-
-
-
-#Ben - Changes to get AVX512 instructions working -------------------
-#import sys
-#import socket
-#hostnm =socket.gethostname()
-#if hostnm=="phoenix" or hostnm=="cyclops":
-#	sys.path.insert(1,"/usr/local/lib/python3.6/dist-packages")
-#	print ("Using Cyclops/Phoenix Version")
-#Ben - End of changes ------------------------------------------------
-
+from __future__ import division
 import numpy as np
 from scipy.linalg import norm as norm
 from scipy.stats import binned_statistic as binned
